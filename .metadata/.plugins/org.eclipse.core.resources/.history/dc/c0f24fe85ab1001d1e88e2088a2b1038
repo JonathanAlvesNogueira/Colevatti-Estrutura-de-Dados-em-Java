@@ -1,0 +1,19 @@
+package digitos_num;
+
+/*  Crie uma função recursiva que exiba a quantidade de dígitos de um
+número inteiro passado como parâmetro */
+
+
+public class Controller {
+
+	public int digitos(int num) {
+		if(num < 10) {
+			return 1;
+		} 
+			return 1 + digitos(num/10);
+		
+	}
+	
+	
+	
+}
