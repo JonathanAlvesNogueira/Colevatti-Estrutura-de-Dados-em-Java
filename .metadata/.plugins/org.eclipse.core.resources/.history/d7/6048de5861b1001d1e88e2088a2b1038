@@ -1,10 +1,5 @@
 package palavra_inverso;
 
-/* Crie uma função recursiva que exiba o resultado da inversão de uma cadeia de caracteres (Ex.:
-entrada = teste ; saída = etset) */
-
-
-
 import java.util.Scanner;
 
 public class View {
