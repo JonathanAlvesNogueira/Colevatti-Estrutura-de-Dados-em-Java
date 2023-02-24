@@ -1,0 +1,22 @@
+package exercicio2;
+
+// Criar uma função recursiva que receba o dividendo e o divisor de uma
+// operação de divisão e, por subtrações, exiba o resto da divisão
+
+
+
+public class Controller {
+
+	public double divisao(double num, double divisor) {
+		if(num < divisor) {
+			return num;
+		}
+		return divisao(num-divisor, divisor);
+		
+		
+	}
+	
+	
+	
+	
+}
